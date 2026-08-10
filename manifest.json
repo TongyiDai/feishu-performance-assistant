@@ -1,0 +1,38 @@
+{
+  "manifest_version": 3,
+  "name": "绩效助手",
+  "version": "3.3",
+  "description": "智能分屏协作工具。自动识别并拦截绩效、文档链接至侧边栏打开，提升浏览效率。",
+  "icons": {
+    "16": "logo.png",
+    "48": "logo.png",
+    "128": "logo.png"
+  },
+  "permissions": [
+    "sidePanel",
+    "contextMenus",
+    "storage",
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "side_panel": {
+    "default_path": "panel.html"
+  },
+  "action": {
+    "default_title": "同时打开绩效系统"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.feishu.cn/*",
+        "*://*.larkoffice.com/*",
+        "*://*.larksuite.com/*",
+        "*://*.feishuapp.com/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ]
+}

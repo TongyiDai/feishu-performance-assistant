@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">从源码到本地加载的发布路径</title>
+  <desc id="desc">公开源码经过本地验证后，可加载为解压扩展并与商店条目对照。</desc>
+  <rect width="1200" height="675" fill="#fff"/>
+  <text x="96" y="92" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#111">公开源码让安装、检查和修改都有清晰入口</text>
+  <text x="96" y="128" font-family="Arial, sans-serif" font-size="16" fill="#666">源码 → 本地验证 → 加载扩展 → 商店条目</text>
+  <line x1="154" y1="364" x2="1040" y2="364" stroke="#222" stroke-width="1.5"/>
+  <circle cx="240" cy="364" r="12" fill="#2F6BFF"/>
+  <circle cx="490" cy="364" r="12" fill="#fff" stroke="#222" stroke-width="1.5"/>
+  <circle cx="740" cy="364" r="12" fill="#fff" stroke="#222" stroke-width="1.5"/>
+  <circle cx="990" cy="364" r="12" fill="#fff" stroke="#222" stroke-width="1.5"/>
+  <text x="240" y="418" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#111">公开源码</text>
+  <text x="490" y="418" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#111">本地验证</text>
+  <text x="740" y="418" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#111">加载扩展</text>
+  <text x="990" y="418" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#111">商店条目</text>
+  <text x="240" y="454" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#666">可读、可改</text>
+  <text x="490" y="454" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#666">语法、资源、凭据</text>
+  <text x="740" y="454" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#666">chrome://extensions</text>
+  <text x="990" y="454" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#666">已发布版本</text>
+</svg>

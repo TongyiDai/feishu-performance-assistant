@@ -1,0 +1,16 @@
+{
+  "canvas": {"width": 1200, "height": 675, "ratio": "16:9", "background": "#FFFFFF", "grid": 8},
+  "intent": {"core_message": "目标链接进入侧边栏，当前页面保持可用", "composition": "input-process-output", "focus_node": "sidepanel"},
+  "style": {"theme": "geometry-minimal", "accent_color": "#2F6BFF", "line_weight": 1, "corner_radius": 0},
+  "nodes": [
+    {"id": "page", "type": "plane", "label": "绩效页面", "importance": 2},
+    {"id": "link", "type": "point", "label": "目标链接", "importance": 3},
+    {"id": "sidepanel", "type": "cube", "label": "侧边栏", "importance": 5},
+    {"id": "review", "type": "plane", "label": "绩效系统", "importance": 2}
+  ],
+  "edges": [
+    {"from": "page", "to": "link", "relation": "点击"},
+    {"from": "link", "to": "sidepanel", "relation": "打开"},
+    {"from": "sidepanel", "to": "review", "relation": "并行访问"}
+  ]
+}

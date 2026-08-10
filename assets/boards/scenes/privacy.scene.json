@@ -1,0 +1,14 @@
+{
+  "canvas": {"width": 1200, "height": 675, "ratio": "16:9", "background": "#FFFFFF", "grid": 8},
+  "intent": {"core_message": "插件只传递打开页面所需的 URL 状态", "composition": "layered-architecture", "focus_node": "local"},
+  "style": {"theme": "geometry-minimal", "accent_color": "#2F6BFF", "line_weight": 1, "corner_radius": 0},
+  "nodes": [
+    {"id": "user", "type": "plane", "label": "用户点击", "importance": 2},
+    {"id": "local", "type": "cube", "label": "本地交接", "importance": 5},
+    {"id": "site", "type": "plane", "label": "目标网站", "importance": 2}
+  ],
+  "edges": [
+    {"from": "user", "to": "local", "relation": "传递 URL"},
+    {"from": "local", "to": "site", "relation": "正常请求"}
+  ]
+}

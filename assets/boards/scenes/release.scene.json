@@ -1,0 +1,16 @@
+{
+  "canvas": {"width": 1200, "height": 675, "ratio": "16:9", "background": "#FFFFFF", "grid": 8},
+  "intent": {"core_message": "公开源码让安装、检查和修改都有清晰入口", "composition": "axis-flow", "focus_node": "source"},
+  "style": {"theme": "geometry-minimal", "accent_color": "#2F6BFF", "line_weight": 1, "corner_radius": 0},
+  "nodes": [
+    {"id": "source", "type": "plane", "label": "公开源码", "importance": 5},
+    {"id": "local", "type": "point", "label": "本地验证", "importance": 3},
+    {"id": "install", "type": "plane", "label": "加载扩展", "importance": 2},
+    {"id": "store", "type": "plane", "label": "商店条目", "importance": 2}
+  ],
+  "edges": [
+    {"from": "source", "to": "local", "relation": "检查"},
+    {"from": "local", "to": "install", "relation": "加载"},
+    {"from": "install", "to": "store", "relation": "对照"}
+  ]
+}

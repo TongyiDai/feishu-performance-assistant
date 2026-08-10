@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">扩展只在本地完成 URL 交接</title>
+  <desc id="desc">用户点击产生的 URL 先经过本地交接，再由浏览器请求目标网站。</desc>
+  <rect width="1200" height="675" fill="#fff"/>
+  <text x="96" y="92" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#111">插件只传递打开页面所需的 URL 状态</text>
+  <text x="96" y="128" font-family="Arial, sans-serif" font-size="16" fill="#666">无扩展后端 · 无埋点 · 页面按浏览器正常请求加载</text>
+  <line x1="170" y1="350" x2="1030" y2="350" stroke="#B8B8B8" stroke-width="1" stroke-dasharray="6 8"/>
+  <rect x="160" y="276" width="190" height="148" fill="#F5F5F5" stroke="#222"/>
+  <rect x="505" y="246" width="260" height="208" fill="#fff" stroke="#2F6BFF" stroke-width="2"/>
+  <rect x="890" y="276" width="190" height="148" fill="#F5F5F5" stroke="#222"/>
+  <line x1="350" y1="350" x2="505" y2="350" stroke="#222" stroke-width="1.5"/>
+  <line x1="765" y1="350" x2="890" y2="350" stroke="#2F6BFF" stroke-width="1.5"/>
+  <circle cx="430" cy="350" r="8" fill="#2F6BFF"/>
+  <text x="255" y="338" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#111">用户点击</text>
+  <text x="255" y="372" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#666">页面 / 链接 URL</text>
+  <text x="635" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#111">本地交接</text>
+  <text x="635" y="366" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#666">service worker + storage</text>
+  <text x="985" y="338" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#111">目标网站</text>
+  <text x="985" y="372" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#666">浏览器正常请求</text>
+</svg>
