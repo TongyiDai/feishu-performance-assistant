@@ -1,12 +1,12 @@
 > “Given enough eyeballs, all bugs are shallow.” — Eric S. Raymond, [The Cathedral and the Bazaar](https://www.catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/)
 
+# 飞书绩效助手
+
 <p align="center">
   <img src="https://img.shields.io/badge/Chrome-MV3-2F6BFF" alt="Chrome Manifest V3">
   <img src="https://img.shields.io/badge/license-MIT-3fb950" alt="License MIT">
   <img src="https://img.shields.io/badge/Feishu%20%2F%20Lark-performance-555" alt="Feishu/Lark performance">
 </p>
-
-# 飞书绩效助手
 
 在一个 Chrome 窗口里完成绩效评估：主页面打开飞书绩效系统，右侧侧边栏打开文档、周报、历史绩效和 AI 工具等参考内容。
 
